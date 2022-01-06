@@ -7,17 +7,17 @@ Dessa forma conseguimos criar o ORM para o framework django através de uma imag
 <h1>Instalação:</h1>
 
 - Abra o terminal: 
-    pip install virtualenv
+<br>    pip install virtualenv
 - Crie o ambiente virtual: 
-    virtualenv nome_da_pasta
+<br>    virtualenv nome_da_pasta
 - Entre na pasta da virtualenv: 
-    cd ./nome_da_pasta
+<br>    cd ./nome_da_pasta
 - Crie a pasta do projeto:
-    mkdir pasta_projeto
+<br>    mkdir pasta_projeto
 - Entre na pasta do projeto:
-    cd ./pasta_projeto
+<br>    cd ./pasta_projeto
 - clone o projeto:
-    git clone https://github.com/romulorizo/gera_orm_django.git
+<br>    git clone https://github.com/romulorizo/gera_orm_django.git
 
 <h1>Uso do programa</h1>
 
