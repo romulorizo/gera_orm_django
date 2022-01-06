@@ -10,5 +10,5 @@ Para rodar o programa, deve ser feito um desenho do modelo de dados e colocar el
     modelo_dados.png
 
 Em seguida, compilar o arquivo criar_modelos.py , para criar o código do ORM:
-![alt text](./resultados/models.py)
+![alt text](./img/img_models.png)
 
