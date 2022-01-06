@@ -44,7 +44,7 @@ Em seguida, compilar o arquivo criar_modelos.py , para criar o código do ORM de
 ![alt text](./img_readme/ROI_3.png)
 
 - Utiliza a bibliotéca pytesseract que faz o OCR dos textos das imagens , e a biblioteca PIL manipulação das imagens.
-- Estrutura os dados em um json, dentro da pasta resultado.
+- Cria uma estrutura os dados em um json, dentro da pasta resultado.
 ![alt text](./img_readme/json_1.png)
 ![alt text](./img_readme/json_2.png)
 
