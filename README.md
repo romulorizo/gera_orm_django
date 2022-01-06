@@ -4,6 +4,11 @@ Este projeto foi feito para otmização e abstração do uso da linguagem python
 
 Dessa forma conseguimos criar o ORM para o framework django através de uma imagem do modelo de dados do sistema, como exemplificado a baixo.
 
+<h1>Instalação:</h1>
+
+- Abra o terminarl:
+pip install virtualenv
+
 <h1>Uso do programa</h1>
 
 Para rodar o programa, deve ser feito um desenho do modelo de dados e colocar ele na pasta principal do projeto:
