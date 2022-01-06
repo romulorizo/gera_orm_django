@@ -1,0 +1,11 @@
+altgraph==0.17.2
+importlib-metadata==4.10.0
+jsons==1.6.0
+macholib==1.15.2
+numpy==1.21.5
+opencv-python==4.5.4.60
+pyinstaller==4.7
+pyinstaller-hooks-contrib==2021.4
+typing-extensions==4.0.1
+typish==1.9.3
+zipp==3.7.0
