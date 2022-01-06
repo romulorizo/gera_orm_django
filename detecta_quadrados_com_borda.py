@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import os
+import sys
 
 nome_arq = 'modelo_dados.png'
 
@@ -11,8 +12,12 @@ def detecta_quadrados_com_borda(nome_arq):
     imgs_para_apagar = [ x for x in os.listdir('./imagens_tabelas') if ('ROI' in x)]
     for i in imgs_para_apagar : os.remove(f'./imagens_tabelas/{i}')
 
-    img = cv2.imread(f'./{nome_arq}')
-    imgGry = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    try:
+        img = cv2.imread(f'./{nome_arq}')
+        imgGry = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    except :
+        print('Erro: A imagem modelo_dados.png não foi encontrada no diretório, verifique se o arquivo existe e tente novamente.')
+        sys.exit()
 
     ret, thrash = cv2.threshold(imgGry, 240 , 255, cv2.CHAIN_APPROX_NONE)
 
