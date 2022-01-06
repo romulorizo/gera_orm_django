@@ -28,7 +28,7 @@ Para rodar o programa, deve ser feito um desenho do modelo de dados e colocar el
 ![alt text](modelo_dados.png)
     modelo_dados.png
 
-Em seguida, compilar o arquivo criar_modelos.py , para criar o código do ORM:
+Em seguida, compilar o arquivo criar_modelos.py , para criar o código do ORM dentro de uma pasta resultado:
 ![alt text](./img_readme/img_models.png)
     models.py
 
@@ -37,18 +37,18 @@ Em seguida, compilar o arquivo criar_modelos.py , para criar o código do ORM:
 - O projeto usa a biblioteca Opencv para identificar na imagem os retangulos onde estão escritos os modelos de dados.
 ![alt text](./img_readme/ROI.png)
 
-- Cria imagens separadas para cada uma das tabelas.
+- Cria imagens separadas para cada uma das tabelas dentro de uma pasta chamada imagens_tabelas.
 ![alt text](./img_readme/ROI_0.png)
 ![alt text](./img_readme/ROI_1.png)
 ![alt text](./img_readme/ROI_2.png)
 ![alt text](./img_readme/ROI_3.png)
 
 - Utiliza a bibliotéca pytesseract que faz o OCR dos textos das imagens , e a biblioteca PIL manipulação das imagens.
-- Estrutura os dados em um json.
+- Estrutura os dados em um json, dentro da pasta resultado.
 ![alt text](./img_readme/json_1.png)
 ![alt text](./img_readme/json_2.png)
 
-- Trata o json e cria o código do ORM.
+- Trata o json e cria o código do ORM dentro da pasta resultado.
 ![alt text](./img_readme/img_models.png)
     models.py
 
